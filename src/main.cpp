@@ -26,7 +26,7 @@ void runPrompt() {}
 
 int main(int argc, char *argv[]) {
   if (argc > 2) {
-    std::cerr << "Usage: cpplox [script]\n";
+    std::cerr << "Usage: lox-cpp [script]\n";
     return 1;
   } else if (argc == 2) {
     runFile(std::string{argv[1]});
